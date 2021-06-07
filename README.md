@@ -1,0 +1,3 @@
+NTC10K
+
+Played with STM32 NUCLEO F042K6
