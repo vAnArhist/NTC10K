@@ -57,6 +57,11 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>Libs/Header/Hardware</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>Libs/Header/Interfaces</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -77,6 +82,11 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>Libs/Source/Hardware</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>Libs/Source/RingBuffer</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -87,9 +97,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Libs/Header/Debug/Logger.h</locationURI>
 		</link>
 		<link>
+			<name>Libs/Header/Drivers/Adc.hpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Libs/Header/Drivers/Adc.hpp</locationURI>
+		</link>
+		<link>
 			<name>Libs/Header/Drivers/Uart.hpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Libs/Header/Drivers/Uart.hpp</locationURI>
+		</link>
+		<link>
+			<name>Libs/Header/Hardware/Ntc.hpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Libs/Header/Hardware/Ntc.hpp</locationURI>
+		</link>
+		<link>
+			<name>Libs/Header/Interfaces/AdcEvent.hpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Libs/Header/Interfaces/AdcEvent.hpp</locationURI>
 		</link>
 		<link>
 			<name>Libs/Header/Interfaces/IUart.hpp</name>
@@ -107,9 +132,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Libs/Source/Debug/Logger.c</locationURI>
 		</link>
 		<link>
+			<name>Libs/Source/Drivers/Adc.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Libs/Source/Drivers/Adc.cpp</locationURI>
+		</link>
+		<link>
 			<name>Libs/Source/Drivers/Uart.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Libs/Source/Drivers/Uart.cpp</locationURI>
+		</link>
+		<link>
+			<name>Libs/Source/Hardware/Ntc.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Libs/Source/Hardware/Ntc.cpp</locationURI>
 		</link>
 		<link>
 			<name>Libs/Source/RingBuffer/RingBuffer.cpp</name>
